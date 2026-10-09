@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #935b5b;
+}
+
+nav {
+  position: fixed;   /* se queda visible al hacer scroll */
+  top: 0;
+  width: 100%;
+  background-color: #222;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+main {
+  padding: 80px 40px 20px; /* el 80px evita que el menú tape el contenido */
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.seccion {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
